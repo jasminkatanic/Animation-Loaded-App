@@ -1,0 +1,33 @@
+@import "./mixins";
+
+
+$color-black: #000;
+$color-white: #fff;
+$color-light-black: #2a2a2a;
+
+$primary-js-color: #0be7fb;
+$primary-js-color-darker: #010b8b;
+$primary-pop-color-sell: #fecc50;
+
+$color-glow-close-red: #c42034;
+
+
+$scondery-js-color: #7eb8da;
+$scondery-js-color-lighter: #92ddea;
+
+$color-web-bg: #9579d1;
+
+$linkedIn-color: #07d;
+$facebook-color: #469;
+$github-color: #222;
+$instagram-color: #e4405f;
+
+//box size
+$box-width: (100vw * 0.2);
+$box-height: ($box-width * 0.27);    
+$box-depth: ($box-width * 0.33);
+
+/* $box-width: 300px;
+$box-height: 100px;
+$box-depth: 50px; */
+

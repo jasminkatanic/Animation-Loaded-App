@@ -1,0 +1,13 @@
+
+@mixin respond($breakpoint) {
+    @if $breakpoint == BS {
+      @media (max-width: 25em){ @content }; //320px and 640px
+    } 
+    @if $breakpoint == maxNavBar {
+      @media (max-width: 72em){ @content }; //320px and 640px
+    }
+    @if $breakpoint == lineMax {
+      @media (max-width: 74em){ @content }; //320px and 640px
+    }
+    
+}
